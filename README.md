@@ -45,7 +45,7 @@ The robot fuses wheel odometry with **ArUco** marker observations through an
 -->
 
 <!-- PASTE VIDEO HERE (Option A) — or replace this whole block with Option B / C -->
-https://github.com/Jaaziel21/Autonomous-Logistics-Manipulation-Robot/blob/main/docs/demo.mp4
+<video src="docs/demo.mp4" width="100%" controls></video>
 
 |  | |
 |---|---|
