@@ -45,7 +45,9 @@ The robot fuses wheel odometry with **ArUco** marker observations through an
 -->
 
 <!-- PASTE VIDEO HERE (Option A) — or replace this whole block with Option B / C -->
-<video src="docs/demo.mp4" width="100%" controls></video>
+https://github.com/user-attachments/assets/05913622-7189-42b9-b528-254710c863b0
+
+
 
 |  | |
 |---|---|
