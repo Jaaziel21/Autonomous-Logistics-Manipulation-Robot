@@ -22,29 +22,6 @@ The robot fuses wheel odometry with **ArUco** marker observations through an
 
 ## Demo
 
-<!--
-  ┌─────────────────────────────────────────────────────────────────────────┐
-  │  WHERE TO PUT YOUR DEMO VIDEO                                            │
-  │                                                                          │
-  │  GitHub does not play large video files embedded with normal markdown,  │
-  │  but it DOES host short clips uploaded directly to a README. Pick one:   │
-  │                                                                          │
-  │  Option A — Native GitHub upload (recommended, no external service):     │
-  │    1. Open this README on github.com and click "Edit".                  │
-  │    2. Drag your .mp4/.mov (<= 100 MB) into the editor where the line     │
-  │       below says "PASTE VIDEO HERE". GitHub uploads it and inserts a     │
-  │       https://github.com/user-attachments/assets/... link automatically.│
-  │                                                                          │
-  │  Option B — Animated GIF (always plays inline, good for a quick loop):   │
-  │    1. Save a short GIF as  docs/demo.gif                                 │
-  │    2. Replace the line below with:  ![Demo](docs/demo.gif)              │
-  │                                                                          │
-  │  Option C — YouTube link with a thumbnail:                              │
-  │    [![Watch the demo](docs/thumbnail.png)](https://youtu.be/VIDEO_ID)   │
-  └─────────────────────────────────────────────────────────────────────────┘
--->
-
-<!-- PASTE VIDEO HERE (Option A) — or replace this whole block with Option B / C -->
 https://github.com/user-attachments/assets/05913622-7189-42b9-b528-254710c863b0
 
 
