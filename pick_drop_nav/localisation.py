@@ -69,7 +69,7 @@ class DeadReckoningClass(Node):
         self.create_subscription(Float32, "VelocityEncR", self.wR_cb, my_qos)
         self.create_subscription(Float32, "VelocityEncL", self.wL_cb, my_qos)
         
-        # --- MODIFICADO PARA RECIBIR EL ARREGLO DE ARUCOS ---
+       
         self.create_subscription(Float32MultiArray, '/aruco_detections', self.aruco_cb, 10)
 
         self.create_timer(1.0 / self.rate, self.odometry_cb)
@@ -85,7 +85,7 @@ class DeadReckoningClass(Node):
     def aruco_cb(self, msg: Float32MultiArray):
         data = msg.data
         
-        # Iteramos en saltos de 3: [id, distancia, ángulo]
+        
         for i in range(0, len(data) - 2, 3):
             marker_id = int(data[i])
             
@@ -133,7 +133,7 @@ class DeadReckoningClass(Node):
 
             I = np.eye(3)
             IKH = I - K_t @ H_t
-            self.Ek = IKH @ self.Ek @ IKH.T + K_t @ self.R_meas @ K_t.T  # forma de Joseph
+            self.Ek = IKH @ self.Ek @ IKH.T + K_t @ self.R_meas @ K_t.T 
 
 
     def odometry_cb(self):
